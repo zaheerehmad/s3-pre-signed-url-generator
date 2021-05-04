@@ -1,0 +1,11 @@
+{
+  
+  "s3": {
+    "bucket": "YOUR_S3_BUCKET",
+    "key": "YOUR_OBJECT_NAME",
+    "region": "us-east-1",
+    "expiresIn": 604800
+  }
+
+}
+

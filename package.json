@@ -1,0 +1,20 @@
+{
+  "name": "s3-pre-signed-url-generator",
+  "version": "0.0.1",
+  "description": "Generate a presigned URL for GetObject",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaheerehmad/s3-pre-signed-url-generator"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Zaheer Ahmed",
+  "license": "MIT Licence",
+  "devDependencies": {},
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.14.0",
+    "@aws-sdk/s3-request-presigner": "^3.14.0",
+    "config": "^3.3.6"
+  }
+}
